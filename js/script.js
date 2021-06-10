@@ -69,18 +69,32 @@
 // }
 
 //--------------------ES3----------------------
-var vet1 = ["a","b","c"];
-var vet2 =[1,2,3];
+// var vet1 = ["a","b","c"];
+// var vet2 =[1,2,3];
 
-var vet3 = merge(vet1 , vet2);
-console.log(vet3);
+// var vet3 = merge(vet1 , vet2);
+// console.log(vet3);
 
 
-function merge(lettere , numeri){
-    var array = [];
-    for(var i=0 ; i<3 ; i++ ){
-        array.push(numeri[i]);
-        array.push(lettere[i]);
-    }
-    return array;
+// function merge(lettere , numeri){
+//     var array = [];
+//     for(var i=0 ; i<3 ; i++ ){
+//         array.push(numeri[i]);
+//         array.push(lettere[i]);
+//     }
+//     return array;
+// }
+
+
+
+//--------------------ES4----------------------
+
+var str = prompt("inserisci una parola : ");
+
+var CapStr = capitalize(str);
+console.log(CapStr);
+
+function capitalize(stringa){
+    var parola = stringa.charAt(0).toUpperCase() + stringa.slice(1);
+    return parola;
 }
