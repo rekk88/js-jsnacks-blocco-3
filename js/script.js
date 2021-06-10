@@ -76,3 +76,11 @@ var vet3 = merge(vet1 , vet2);
 console.log(vet3);
 
 
+function merge(lettere , numeri){
+    var array = [];
+    for(var i=0 ; i<3 ; i++ ){
+        array.push(numeri[i]);
+        array.push(lettere[i]);
+    }
+    return array;
+}
