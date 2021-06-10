@@ -40,30 +40,39 @@
 
 //--------------------ES2----------------------
 
-var str1 = prompt("inserisci una parola : ");
-var str2 = prompt("inseriscine un'altra  : ");
+// var str1 = prompt("inserisci una parola : ");
+// var str2 = prompt("inseriscine un'altra  : ");
 
-console.log(str1);
-console.log(str2);
+// console.log(str1);
+// console.log(str2);
  
-var risultato =  lunghezza(str1 , str2);
+// var risultato =  lunghezza(str1 , str2);
 
-console.log(risultato);
+// console.log(risultato);
 
 // ---------------functions-------------
 
-function lunghezza(p1 , p2){
-    if(p1.length > p2.length)
-    {
-        console.log("la parola piu lunga è " + p1);
-        return p1;
-    }
-    else if(p1.length < p2.length){
-            console.log("la parola piu lunga è " + p2);
-            return p2;
-        }
-        else{
-            console.log("le parole " + p1 + " e " + p2 + " hanno la stessa lunghezza");
-            return p1+" "+p2;
-        }
-}
+// function lunghezza(p1 , p2){
+//     if(p1.length > p2.length)
+//     {
+//         console.log("la parola piu lunga è " + p1);
+//         return p1;
+//     }
+//     else if(p1.length < p2.length){
+//             console.log("la parola piu lunga è " + p2);
+//             return p2;
+//         }
+//         else{
+//             console.log("le parole " + p1 + " e " + p2 + " hanno la stessa lunghezza");
+//             return p1+" "+p2;
+//         }
+// }
+
+//--------------------ES3----------------------
+var vet1 = ["a","b","c"];
+var vet2 =[1,2,3];
+
+var vet3 = merge(vet1 , vet2);
+console.log(vet3);
+
+
