@@ -39,3 +39,14 @@ function nVet(array,minimo,massimo){
 
 
 //--------------------ES2----------------------
+
+var str1 = prompt("inserisci una parola : ");
+var str2 = prompt("inseriscine un'altra  : ");
+
+console.log(str1);
+console.log(str2);
+ 
+var risultato =  lunghezza(str1 , str2);
+
+console.log(risultato);
+
