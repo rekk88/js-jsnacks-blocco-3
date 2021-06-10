@@ -91,7 +91,7 @@
 
 var str = prompt("inserisci una parola : ");
 
-var CapStr = capitalize(str);
+var capStr = capitalize(str);
 console.log(CapStr);
 
 function capitalize(stringa){
