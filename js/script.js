@@ -35,3 +35,7 @@ function nVet(array,minimo,massimo){
     }
     return k;
 }
+
+
+
+//--------------------ES2----------------------
